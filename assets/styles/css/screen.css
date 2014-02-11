@@ -1,3 +1,5 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+@import url(//fonts.googleapis.com/css?family=Quando);
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
@@ -57,3 +59,119 @@ a img {
 /* line 116, ../../../../../../../usr/local/rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
+
+/* line 9, ../sass/app.scss */
+html,
+body {
+  height: 100%;
+  margin: 0; }
+
+/* line 14, ../sass/app.scss */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -30px;
+  padding: 0 0 30px; }
+
+/* line 21, ../sass/app.scss */
+.container {
+  max-width: 900px; }
+
+/* line 25, ../sass/app.scss */
+#footer {
+  background-color: rgba(0, 0, 0, 0.45);
+  color: whitesmoke;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75em;
+  font-weight: 300;
+  height: 30px;
+  padding-top: 0.7em;
+  text-align: center; }
+  /* line 35, ../sass/app.scss */
+  #footer span {
+    margin: 0 3em; }
+  /* line 39, ../sass/app.scss */
+  #footer a {
+    color: #3498db;
+    font-weight: 700; }
+
+/* line 47, ../sass/app.scss */
+nav {
+  background-color: #fafafa;
+  border-bottom: 1px solid #f7f7f7 !important; }
+  /* line 51, ../sass/app.scss */
+  nav i {
+    margin-right: 0.5em;
+    vertical-align: sub; }
+
+/* line 59, ../sass/app.scss */
+body.home {
+  background: url(/assets/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  /* line 66, ../sass/app.scss */
+  body.home .logo {
+    color: whitesmoke;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 7em;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 18%;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25); }
+    /* line 77, ../sass/app.scss */
+    body.home .logo i {
+      font-size: 0.9em;
+      vertical-align: sub; }
+  /* line 82, ../sass/app.scss */
+  body.home .home-menu {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    margin: 4em auto;
+    text-align: center; }
+    /* line 88, ../sass/app.scss */
+    body.home .home-menu a {
+      background-color: rgba(0, 0, 0, 0.45);
+      border-radius: 3px;
+      color: whitesmoke;
+      display: inline-block;
+      margin: 0.5em auto;
+      min-width: 6.5em;
+      padding: 1em;
+      text-align: center; }
+      /* line 98, ../sass/app.scss */
+      body.home .home-menu a:hover {
+        color: #3498db;
+        font-weight: 700;
+        text-decoration: none; }
+      /* line 104, ../sass/app.scss */
+      body.home .home-menu a i {
+        display: block;
+        font-size: 3em; }
+
+/* line 114, ../sass/app.scss */
+body.writings {
+  font-family: "Open Sans", sans-serif; }
+  /* line 118, ../sass/app.scss */
+  body.writings article {
+    font-size: 16px;
+    padding: 100px 3em 1em; }
+    /* line 122, ../sass/app.scss */
+    body.writings article header {
+      font-family: "Quando", serif;
+      font-size: 2em;
+      margin-bottom: 0.25em;
+      text-transform: capitalize; }
+    /* line 129, ../sass/app.scss */
+    body.writings article span.post-date {
+      color: #c2c2c2;
+      display: inline-block;
+      font-size: 0.8em;
+      margin-bottom: 1em; }
+    /* line 136, ../sass/app.scss */
+    body.writings article p {
+      line-height: 1.45em;
+      margin-bottom: 1em; }
